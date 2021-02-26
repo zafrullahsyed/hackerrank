@@ -1,3 +1,3 @@
-# hackerrank
+# Hacker Rank and Leet Code 
 
-Hacker rank solutions
+Hacker rank and Leet code solutions
