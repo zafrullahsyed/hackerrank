@@ -1,6 +1,5 @@
 package com.itszaif.hackerearth;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Divisibility {
@@ -8,13 +7,13 @@ public class Divisibility {
         Scanner scanner = new Scanner(System.in);
 
         int inputLimit = scanner.nextInt();
-        int inputLimitas = 0;
+        int reminder = 0;
 
         for (int i = 0; i < inputLimit; i++) {
-            inputLimitas = scanner.nextInt()%10;
+            reminder = scanner.nextInt()%10;
         }
 
-        if (inputLimitas %10 == 0){
+        if (reminder %10 == 0){
             System.out.println("Yes");
         } else {
             System.out.println("No");
